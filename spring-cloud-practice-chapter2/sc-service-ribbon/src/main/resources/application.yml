@@ -1,0 +1,12 @@
+eureka:
+  client:
+    serviceUrl:
+      #指定服务的注册中心地址为http://localhost:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
+server:
+  #程序端口为8764
+  port: 8764
+spring:
+  application:
+    #程序名称为 service-ribbon
+    name: service-ribbon
